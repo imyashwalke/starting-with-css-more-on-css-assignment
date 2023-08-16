@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>starting with css assighnment Q2 to Q6</title>
+
+    <style>
+      /* Q3 - */
+      .nav1:hover {
+        color: #f20303;
+      }
+      .nav2:hover {
+        color: #ffff00;
+      }
+      .nav3:hover {
+        color: #d2691e;
+      }
+      .nav4:hover {
+        color: #8b0066;
+      }
+      .nav5:hover {
+        color: #00ff00;
+      }
+
+      /* Q4 - */
+      li:nth-child(even) {
+        background-color: #f578b6;
+      }
+      li:nth-child(odd) {
+        background-color: #49da55;
+      }
+
+      /* Q5 - */
+      img {
+        opacity: 0;
+        width: 50%;
+      }
+      img:hover {
+        opacity: 1;
+      }
+
+      /* Q6 */
+      input:focus {
+        background-color: #ddf844;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Q2.  -->
+
+    <h2>Q2</h2>
+    <h1 style="color: #f20303">CSS (cascading style sheets) -</h1>
+
+    <p style="background-color: #ffff00; color: #f20303">
+      (CSS) is a style sheet language used for describing the presentation of a
+      document written in a markup language such as HTML.Cascading Style Sheets
+      (CSS) is a style sheet language used for describing the presentation of a
+      document written in a markup language such as HTML or XML (including XML
+      dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of
+      the World Wide Web, alongside HTML and JavaScript.
+    </p>
+
+    <br />
+    <hr />
+
+    <!-- Q3. -->
+
+    <h2>Q3</h2>
+    <a href="#home" class="nav1">home | </a>
+    <a href="#about" class="nav2">about | </a>
+    <a href="#contact" class="nav3">contact | </a>
+    <a href="#adress" class="nav4">adress | </a>
+    <a href="#review" class="nav5">review | </a>
+
+    <br />
+    <hr />
+
+    <!-- Q4 -->
+
+    <h2>Q4</h2>
+    <ol>
+      <li>Html</li>
+      <li>Css</li>
+      <li>JavaScript</li>
+      <li>MySql</li>
+      <li>Mongo DB</li>
+      <li>React js</li>
+      <li>Node js</li>
+    </ol>
+
+    <br />
+    <hr />
+
+    <!-- Q5 - -->
+
+    <h2>Q5</h2>
+
+    <h2>hover below to reveal a suprise</h2>
+
+    <img
+      src="https://assets-news.housing.com/news/wp-content/uploads/2022/01/11100351/Ganpati-decoration-at-home-Easy-Ganesha-decoration-ideas-for-background-and-mandap-FB-1200x700-compressed-686x400.jpg"
+      alt="ganpati bappa"
+    />
+
+    <br />
+    <hr />
+
+    <!-- Q6 -->
+
+    <h2>Q6</h2>
+
+    <form action="">
+      <div>
+        <label for="username"
+          >Name :
+          <input type="text" name="name" id="username" required />
+        </label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="useremail"
+          >Email :
+          <input type="email" name="email" id="useremail" />
+        </label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="userpassword"
+          >password :
+          <input type="password" name="password" id="userpassword" required />
+        </label>
+      </div>
+
+      <br />
+
+      <div>
+        <input type="submit" value="submit form" />
+      </div>
+    </form>
+
+    <br />
+    <hr />
+  </body>
+</html>
